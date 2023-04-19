@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+        function cubo() {
+            //window.alert("teste")
+            var var1 = document.getElementById("val1");
+            var var2 = document.getElementById("val");
+            //window.alert(var1.value + " " + var2.value)
+            document.getElementById("resultado").innerText = var1.value **3 ;
+        }
+   </script>
+   <div class="potencia"> 
+    <input id="val1" value="">potência de 3
+    
+    <button onclick="cubo()">Calcular o cubo</button>
+    <p id="resultado">XXXX</p>
+</div>
+    
+<div class="FaireCelcius">
+    <script>
+        function fahrenheit() {
+            //window.alert("teste")
+            var F = document.getElementById("val10");
+                       //window.alert(var1.value + " " + var2.value)
+            document.getElementById("result").innerText = (F.value -32) * (5/9);
+        }
+    </script>
+    <input id="val10" value="">
+        <button onclick="fahrenheit()">Fihrenheit</button>
+    <p id="result">XXXX</p>
+</div>
+
+
+<div class="AreaTr">
+    <script>
+        function AreaT() {
+            //window.alert("teste")
+            var b = document.getElementById("val4");
+            var a = document.getElementById("val5");
+            //window.alert(var1.value + " " + var2.value)
+            document.getElementById("resu1").innerText = (b.value) * (a.value) /2;
+        }
+    </script>
+    <input id="val4" value="">
+    <input id="val5" value="">
+    <button onclick="AreaT()">AreaDoTriangulo</button>
+    <p id="resu1">XXXX</p>
+</div>
+
+</body>
+</html>
